@@ -1,6 +1,5 @@
 # day-03
-For the given JSON iterate over all for loops:
-
+1. For the given JSON iterate over all for loops:
 JSON iterate  FOR LOOP:
 var json = [{
     "id" : "1", 
@@ -33,7 +32,7 @@ for (var property in person) {
 }
 
 
-Create your own resume data in JSON format
+2. Create your own resume data in JSON format
 var Details={
      "NAME":"MOGANA",
      "E-MAIL ID": "monisha26596@gmail.com",
@@ -47,7 +46,7 @@ for (var property in Details) {
 }
 
 
-Different between screen, window and document in Javascript:
+3.Different between screen, window and document in Javascript:
 
 Window:
 The JavaScript window object sits at the top of the JavaScript Object hierarchy and represents the browser window. The window object is supported by all browsers. All global JavaScript objects , functions, and variables automatically become members of the window object. The window is the first thing that gets loaded into the browser . The window object represents the current browsing context . It holds things like window.location, window.history, window.screen, window.status, or the window.document . Each browser tab has its own top-level window object.
